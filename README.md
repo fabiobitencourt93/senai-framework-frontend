@@ -1,4 +1,4 @@
-# 🚀 Aula 01 – Apresentação da Disciplina e Contextualização
+# 🚀Apresentação da Disciplina e Contextualização
 
 > **Disciplina:** Frameworks Front-end  
 > 👨‍🏫 **Professor:** Prof. Me. Deivison S. Takatu
