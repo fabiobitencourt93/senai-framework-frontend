@@ -28,8 +28,8 @@ Desenvolver uma aplicação web interativa utilizando linguagens fundamentais da
 - HTML5 / CSS3 / JavaScript
 
 **🔗 Links da Atividade:**
-- [Repositório GitHub](https://github.com/gabrielcamargogsilva/jogo-da-memoria.git)
-- [Deploy Vercel](https://jogo-da-memoria-weld-pi.vercel.app/)
+- [Repositório GitHub](https://github.com/fabiobitencourt93/senai-projeto-vanilla)
+- [Deploy Vercel - CNC Calculator](https://senai-projeto-vanilla-lc47-e9jt8gqdy-fabio-b-faculdade-ads.vercel.app/)
 
 ---
 
@@ -56,8 +56,8 @@ Criação de uma aplicação prática utilizando React, inicialização do repos
 - React / JavaScript / Vercel
 
 **🔗 Links da Atividade:**
-- [Repositório GitHub](https://github.com/gabrielcamargogsilva/projeto-to-do-list-react.git)
-- [Deploy Vercel](https://projeto-to-do-list-vert.vercel.app/)
+- [Repositório GitHub](https://github.com/fabiobitencourt93/projeto-react-fabio)
+- [Deploy Vercel](https://projeto-react-fabio.vercel.app/)
 
 ---
 
