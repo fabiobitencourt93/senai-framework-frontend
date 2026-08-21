@@ -39,8 +39,8 @@ Desenvolver uma aplicação web interativa utilizando linguagens fundamentais da
 Formação de grupo para criação do repositório principal da disciplina, elaboração de resumo sobre a Aula 01 em Markdown e produção de relatório técnico em PDF sobre frameworks (React, Angular, Vue, etc.).
 
 **🔗 Links da Atividade:**
-- [Repositório GitHub](#)
-- [Documento / Relatório](#)
+- [Repositório GitHub](https://github.com/fabiobitencourt93/Relatorio_tecnico)
+- [Documento / Relatório](https://github.com/fabiobitencourt93/Relatorio_tecnico/blob/main/relatorio_frameworks_frontend.pdf)
 
 ---
 
