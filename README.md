@@ -19,7 +19,7 @@ Repositório destinado ao armazenamento, documentação e exibição de todas as
 ## 1ª Aula
 ---
 
-### 🔹 Atividade 01 — Jogo da Memória
+### 🔹 Atividade 01 — Calculadora para CNC
 
 **Descrição:**
 Desenvolver uma aplicação web interativa utilizando linguagens fundamentais da Web, conectar a um repositório GitHub e realizar o deploy na Vercel.
