@@ -64,7 +64,7 @@ Criação de uma aplicação prática utilizando React, inicialização do repos
 ## 3ª Aula
 ---
 
-# 📝 Atividade Prática — Projetos Multi-Frameworks
+# 📝 Atividade 04 — Projetos Multi-Frameworks
 
 ## 🎯 Desafio
 Desenvolver, em grupo, quatro projetos Web abordando o mesmo tema, utilizando diferentes tecnologias front-end. Cada projeto deve apresentar uma página funcional, responsiva e organizada, aplicando componentes e os recursos básicos da ferramenta escolhida.
@@ -102,12 +102,14 @@ Desenvolver, em grupo, quatro projetos Web abordando o mesmo tema, utilizando di
 ## 4ª Aula 
 ---
 
-# 📝 Atividade Prática — Pesquisa de Projetos com APIs
+# 📝 Atividade 05 — Pesquisa de Projetos com APIs
 
 ## 🎯 Desafio
 
 Pesquisem 10 projetos no GitHub que utilizem algum tipo de API em suas aplicações. Em seguida, clonem e analisem os projetos, identificando o framework utilizado e as APIs 
 consumidas. Por fim, clonem os projetos e criem um arquivo Markdown com uma tabela detalhando os projetos escolhidos e suas respectivas informações.
+
+
 
 # 🚀Apresentação da Disciplina e Contextualização
 
