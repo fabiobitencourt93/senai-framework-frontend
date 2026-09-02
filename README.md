@@ -99,9 +99,15 @@ Desenvolver, em grupo, quatro projetos Web abordando o mesmo tema, utilizando di
 
 ---
 
+## 4ª Aula 
+---
 
+# 📝 Atividade Prática — Pesquisa de Projetos com APIs
 
+## 🎯 Desafio
 
+Pesquisem 10 projetos no GitHub que utilizem algum tipo de API em suas aplicações. Em seguida, clonem e analisem os projetos, identificando o framework utilizado e as APIs 
+consumidas. Por fim, clonem os projetos e criem um arquivo Markdown com uma tabela detalhando os projetos escolhidos e suas respectivas informações.
 
 # 🚀Apresentação da Disciplina e Contextualização
 
