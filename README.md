@@ -109,6 +109,21 @@ Desenvolver, em grupo, quatro projetos Web abordando o mesmo tema, utilizando di
 Pesquisem 10 projetos no GitHub que utilizem algum tipo de API em suas aplicações. Em seguida, clonem e analisem os projetos, identificando o framework utilizado e as APIs 
 consumidas. Por fim, clonem os projetos e criem um arquivo Markdown com uma tabela detalhando os projetos escolhidos e suas respectivas informações.
 
+# 📝 Atividade 06 — Criação de APIs
+
+## 🎯 Desafio
+
+1. Criem uma API usando Express, definindo uma rota de consulta de data e hora. Faça o deploy no Render, conectando ao repositório para garantir que a API fique acessível online. Em seguida, desenvolvam uma aplicação frontend que consuma essa API, e apresente na tela a data e hora.
+
+2. Utilize outro repositório para separar a API com o Front. Organize tudo em um documento com prints do código, da aplicação em funcionamento e dos painéis do Render e Vercel, 
+links dos repositórios no GitHub e envie a atividade na plataforma CANVA.
+
+
+
+
+
+
+
 
 
 # 🚀Apresentação da Disciplina e Contextualização
