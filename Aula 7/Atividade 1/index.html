@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramentaria | Estampos de Corte, Dobra e Repuxo</title>
+    <!-- Ligação Externa do CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1>Guia de Referência: Ferramentaria de Estampos</h1>
+        <p>Biblioteca técnica para projetos de matrizes, cálculos estruturais e parâmetros mecânicos.</p>
+    </header>
+
+    <main class="flex-container">
+        
+        <!-- Bloco 1: Tipos de Estampos e Estrutura -->
+        <div class="card card-destaque">
+            <div class="card-header"><span>01</span> Tipos de Matriz</div>
+            <h2>Estampo Progressivo</h2>
+            <p>Realiza múltiplas operações (corte, furo, dobra) na mesma tira de chapa em estações sequenciais.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>02</span> Tipos de Matriz</div>
+            <h2>Estampo de Repuxo (Drawing)</h2>
+            <p>Conforma a chapa plana em corpos ocos ou profundos, alterando a estrutura plástica do material.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>03</span> Componentes</div>
+            <h2>Bases (Aço SAE 1020)</h2>
+            <p>Material estrutural de baixa liga aplicado nas bases superior e inferior do estampo, garantindo estabilidade e fácil usinagem.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>04</span> Componentes</div>
+            <h2>Punção e Matriz</h2>
+            <p>Elementos ativos. Geralmente fabricados em aços temperados de alta dureza (como D2 ou D6) para suportar o desgaste.</p>
+        </div>
+
+        <div class="card fix-size">
+            <div class="card-header"><span>05</span> Componentes</div>
+            <h2>Placa Guia e Extratora</h2>
+            <p>Guia os punções durante a descida e extrai a tira de chapa que fica presa no punção durante a subida.</p>
+        </div>
+
+        <!-- Bloco 2: Parâmetros de Corte e Dobra -->
+        <div class="card">
+            <div class="card-header"><span>06</span> Parâmetros</div>
+            <h2>Força de Corte (Fc)</h2>
+            <p>Fc = Perímetro * Espessura * Tensão de Cisalhamento. Define a capacidade da prensa.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>07</span> Parâmetros</div>
+            <h2>Folga de Corte</h2>
+            <p>Fator crítico: varia de 5% a 10% da espessura da chapa. Uma folga incorreta gera rebarbas excessivas.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>08</span> Parâmetros</div>
+            <h2>Força de Dobra</h2>
+            <p>Fd = (K * L * e² * Rmt) / W. Necessária para vencer a resistência à flexão da chapa metálica.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>09</span> Parâmetros</div>
+            <h2>Springback (Retorno)</h2>
+            <p>Retorno elástico do material pós-dobra. Compensa-se projetando ângulos mais fechados na matriz.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>10</span> Parâmetros</div>
+            <h2>Raio Mínimo de Dobra</h2>
+            <p>Depende do sentido de laminação da chapa. Se não respeitado, provoca trincas na face externa.</p>
+        </div>
+
+        <!-- Bloco 3: Elementos Funcionais e Repuxo -->
+        <div class="card card-destaque">
+            <div class="card-header"><span>11</span> Elementos</div>
+            <h2>Piloto de Centragem</h2>
+            <p>Pinos localizados nos punções para alinhar o passo da tira de forma milimétrica antes da operação de corte.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>12</span> Cálculo</div>
+            <h2>Força de Extração</h2>
+            <p>Corresponde a cerca de 10% a 20% da força de corte. Usada para dimensionar as molas helicoidais ou de poliuretano.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>13</span> Cálculo</div>
+            <h2>Passo e Retalho</h2>
+            <p>Distância de avanço da tira. O retalho lateral e entre peças (geralmente 1x a 1.5x a espessura) garante a rigidez da fita.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>14</span> Parâmetros</div>
+            <h2>Diâmetro do Esboço (Blank)</h2>
+            <p>Cálculo da área planificada de uma peça repuxada. D = √(d² + 4dh) para copos cilíndricos simples.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>15</span> Parâmetros</div>
+            <h2>Força de Repuxo</h2>
+            <p>Fr = π * d * e * Rmt * (D/d - 0.7). Essencial para dimensionar prensas de ação dupla.</p>
+        </div>
+
+        <div class="card fix-size">
+            <div class="card-header"><span>16</span> Componentes</div>
+            <h2>Prensa-Chapas (Sujeitador)</h2>
+            <p>Aplica pressão constante no esboço durante o repuxo para evitar a formação de rugas no material.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>17</span> Parâmetros</div>
+            <h2>Estágios de Repuxo</h2>
+            <p>Reduções graduais do diâmetro (ex: 40% no primeiro estágio, 20% no segundo) evitam o rasgamento do fundo do copo.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>18</span> Componentes</div>
+            <h2>Pino de Topo</h2>
+            <p>Batente mecânico na placa guia que serve de referência manual para posicionar a tira nos primeiros golpes.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>19</span> Material</div>
+            <h2>Aço SAE 1045</h2>
+            <p>Usado para punções e matrizes de lotes menores ou dobras menos severas, onde aços de alta liga encareceriam o projeto.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header"><span>20</span> Equipamento</div>
+            <h2>Prensas Mecânicas e Hidráulicas</h2>
+            <p>Excêntricas são usadas para golpes rápidos (corte/dobra). Hidráulicas mantêm a força constante ao longo do curso (repuxo).</p>
+        </div>
+
+    </main>
+</body>
+</html>

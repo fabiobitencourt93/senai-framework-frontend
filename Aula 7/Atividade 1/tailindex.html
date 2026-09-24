@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramentaria | Estampos de Corte, Dobra e Repuxo (Tailwind)</title>
+    <!-- Tailwind CSS via CDN para renderização instantânea -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 m-0 p-0 font-sans">
+    
+    <!-- HEADER (Flexbox: column, center, items-center) -->
+    <header class="bg-slate-800 text-white p-8 flex flex-col justify-center items-center text-center">
+        <h1 class="text-3xl font-bold mb-2">Reference Guide: Ferramentaria de Estampos</h1>
+        <p class="text-slate-300 text-lg">Biblioteca técnica para projetos de matrizes, cálculos estruturais e parâmetros mecânicos.</p>
+    </header>
+
+    <!-- MAIN CONTAINER (Flexbox: row, wrap, center, stretch, gap-5) -->
+    <main class="w-[90%] max-w-[1200px] mx-auto my-10 p-5 border-2 border-dashed border-slate-300 flex flex-row flex-wrap justify-center content-stretch gap-5">
+        
+        <!-- Bloco 1: Tipos de Estampos e Estrutura -->
+        
+        <!-- Card 01: Destaque (basis-full, order-first, self-center) -->
+        <div class="flex flex-col justify-between items-start grow shrink basis-full w-[250px] min-h-[180px] p-5 border-2 border-blue-500 rounded-xl m-1 bg-sky-50 shadow-md transition-transform duration-200 hover:-translate-y-1 self-center -order-1">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">01</span> Tipos de Matriz
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Estampo Progressivo</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Realiza múltiplas operações (corte, furo, dobra) na mesma tira de chapa em estações sequenciais.</p>
+        </div>
+
+        <!-- Cards Normais (grow, shrink, basis-[260px]) -->
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">02</span> Tipos de Matriz
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Estampo de Repuxo (Drawing)</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Conforma a chapa plana em corpos ocos ou profundos, alterando a estrutura plástica do material.</p>
+        </div>
+
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">03</span> Componentes
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Bases (Aço SAE 1020)</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Material estrutural de baixa liga aplicado nas bases superior e inferior do estampo, garantindo estabilidade e fácil usinagem.</p>
+        </div>
+
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">04</span> Componentes
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Punção e Matriz</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Elementos ativos. Geralmente fabricados em aços temperados de alta dureza (como D2 ou D6) para suportar o desgaste.</p>
+        </div>
+
+        <!-- Card 05: Fix-size (grow-0, shrink-0 para não mudar de tamanho) -->
+        <div class="flex flex-col justify-between items-start grow-0 shrink-0 basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">05</span> Componentes
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Placa Guia e Extratora</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Guia os punções durante a descida e extrai a tira de chapa que fica presa no punção durante a subida.</p>
+        </div>
+
+        <!-- Bloco 2: Parâmetros de Corte e Dobra -->
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">06</span> Parâmetros
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Força de Corte (Fc)</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Fc = Perímetro * Espessura * Tensão de Cisalhamento. Define a capacidade da prensa.</p>
+        </div>
+
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">07</span> Parâmetros
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Folga de Corte</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Fator crítico: varia de 5% a 10% da espessura da chapa. Uma folga incorreta gera rebarbas excessivas.</p>
+        </div>
+
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">08</span> Parâmetros
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Força de Dobra</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Fd = (K * L * e² * Rmt) / W. Necessária para vencer a resistência à flexão da chapa metálica.</p>
+        </div>
+
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">09</span> Parâmetros
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Springback (Retorno)</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Retorno elástico do material pós-dobra. Compensa-se projetando ângulos mais fechados na matriz.</p>
+        </div>
+
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">10</span> Parâmetros
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Raio Mínimo de Dobra</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Depende do sentido de laminação da chapa. Se não respeitado, provoca trincas na face externa.</p>
+        </div>
+
+        <!-- Bloco 3: Elementos Funcionais e Repuxo -->
+        
+        <!-- Card 11: Destaque -->
+        <div class="flex flex-col justify-between items-start grow shrink basis-full w-[250px] min-h-[180px] p-5 border-2 border-blue-500 rounded-xl m-1 bg-sky-50 shadow-md transition-transform duration-200 hover:-translate-y-1 self-center -order-1">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">11</span> Elementos
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Piloto de Centragem</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Pinos localizados nos punções para alinhar o passo da tira de forma milimétrica antes da operação de corte.</p>
+        </div>
+
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">12</span> Cálculo
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Força de Extração</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Corresponde a cerca de 10% a 20% da força de corte. Usada para dimensionar as molas helicoidais ou de poliuretano.</p>
+        </div>
+
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">13</span> Cálculo
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Passo e Retalho</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Distância de avanço da tira. O retalho lateral e entre peças (geralmente 1x a 1.5x a espessura) garante a rigidez da fita.</p>
+        </div>
+
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">14</span> Parâmetros
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Diâmetro do Blank</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Cálculo da área planificada de uma peça repuxada. D = √(d² + 4dh) para copos cilíndricos simples.</p>
+        </div>
+
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">15</span> Parâmetros
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Força de Repuxo</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Fr = π * d * e * Rmt * (D/d - 0.7). Essencial para dimensionar prensas de ação dupla.</p>
+        </div>
+
+        <!-- Card 16: Fix-size -->
+        <div class="flex flex-col justify-between items-start grow-0 shrink-0 basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">16</span> Componentes
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Prensa-Chapas</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Aplica pressão constante no esboço durante o repuxo para evitar a formação de rugas no material.</p>
+        </div>
+
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">17</span> Parâmetros
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Estágios de Repuxo</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Reduções graduais do diâmetro (ex: 40% no primeiro estágio) evitam o rasgamento do fundo do copo.</p>
+        </div>
+
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">18</span> Componentes
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Pino de Topo</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Batente mecânico na placa guia que serve de referência manual para posicionar a tira nos primeiros golpes.</p>
+        </div>
+
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">19</span> Material
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Aço SAE 1045</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Usado para punções e matrizes de lotes menores, onde aços de alta liga encareceriam o projeto.</p>
+        </div>
+
+        <div class="flex flex-col justify-between items-start grow shrink basis-[260px] w-[250px] min-h-[180px] p-5 border-2 border-slate-200 rounded-xl m-1 bg-white shadow-md transition-transform duration-200 hover:-translate-y-1 hover:border-blue-500">
+            <div class="w-full text-slate-500 text-sm font-semibold uppercase border-b border-slate-200 pb-2 mb-3 flex justify-between items-center">
+                <span class="bg-blue-500 text-white py-0.5 px-2 rounded">20</span> Equipamento
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-2">Prensas Mecânicas</h2>
+            <p class="text-slate-600 text-[0.95rem] leading-relaxed m-0">Excêntricas são usadas para golpes rápidos. Hidráulicas mantêm a força constante (ideal para repuxo).</p>
+        </div>
+
+    </main>
+</body>
+</html>
