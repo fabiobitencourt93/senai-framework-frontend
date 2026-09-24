@@ -67,7 +67,7 @@ Criação de uma aplicação prática utilizando React, inicialização do repos
 Relatório técnico em PDF apresentando suas principais características, vantagens, aplicações no mercado e um exemplo de utilização em um projeto Web.
 
 **🔗 Links da Atividade:**
-- [PDF](https://github.com/fabiobitencourt93/projeto-react-fabio)
+- [PDF](https://github.com/fabiobitencourt93/senai-framework-frontend/blob/main/Aula%202/relatorio-tecnico-frameworks.pdf)
 
 ## 3ª Aula
 ---
