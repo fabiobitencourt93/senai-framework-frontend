@@ -47,7 +47,7 @@ Formação de grupo para criação do repositório principal da disciplina, elab
 ## 2ª Aula
 ---
 
-### 🔹 Atividade 03 — To Do List em React
+### 🔹 Atividade 01 — To Do List em React
 
 **Descrição:**
 Criação de uma aplicação prática utilizando React, inicialização do repositório Git, publicação no GitHub e deploy com URL pública na Vercel.
@@ -60,6 +60,14 @@ Criação de uma aplicação prática utilizando React, inicialização do repos
 - [Deploy Vercel](https://projeto-react-fabio.vercel.app/)
 
 ---
+
+### 🔹 Atividade 02 — Relatório Técnico
+
+**Descrição:**
+Relatório técnico em PDF apresentando suas principais características, vantagens, aplicações no mercado e um exemplo de utilização em um projeto Web.
+
+**🔗 Links da Atividade:**
+- [PDF](https://github.com/fabiobitencourt93/projeto-react-fabio)
 
 ## 3ª Aula
 ---
